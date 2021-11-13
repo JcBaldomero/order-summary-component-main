@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Red Hat Display", sa;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("./images/pattern-background-desktop.svg") no-repeat;
+}
+
+/*
+ *  
+ *   ##Device = Most of the Smartphones Mobiles (Portrait)
+ *   ##Screen = 320px to 479px
+ */
+@media (min-width: 240px) and (max-width: 480px) {
+  main {
+    background: url("./images/pattern-background-mobile.svg") no-repeat fill;
+  }
+}
+
+.card-container {
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 2.5px 2.5px 4px rgba(5, 5, 5, 0.205);
+  padding-bottom: 1.8rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-container h1 {
+  margin: 1rem 0rem;
+}
+
+.card-container p {
+  color: grey;
+}
+
+.card-container .card-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem 0rem;
+}
+
+.card-container .card-plan .planDescript {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
