@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/XcaliGit/order-summary-component-main)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://xcaligit.github.io/order-summary-component-main/)
 
 
 ### Built with
