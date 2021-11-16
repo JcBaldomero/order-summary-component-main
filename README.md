@@ -71,7 +71,7 @@ I learned that you need to add a height to the parent div in order to apply alig
 
 ## Author
 
-- Website - [Github Xcali](https://xcali.guthub.io/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/XcaliGit)
+- Website - [Github XcaliGit](https://xcali.guthub.io/)
+- Frontend Mentor - [@XcaliGit](https://www.frontendmentor.io/profile/XcaliGit)
 
 
